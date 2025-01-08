@@ -1,1 +1,41 @@
-/*  your css code here. If applicable */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.marquee {
+    background-color: #f0f0f0;
+    padding: 20px;
+    text-align: center;
+}
+
+.marquee h1 {
+    margin: 0;
+}
+
+.blog-link {
+    text-align: center;
+    margin: 20px 0;
+}
+
+.articles {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.article {
+    margin: 20px;
+    width: calc(33.33% - 20px);
+}
+
+.article img {
+    height: 200px;
+    width: 100%;
+    object-fit: cover;
+}
+
+.article h2 {
+    margin-top: 0;
+}
